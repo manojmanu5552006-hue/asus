@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #25274d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #464866;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc70;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(120deg, #aa4b6b, #6b6b83, #3b8d99);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Events Section */
+.events {
+    padding: 40px;
+    text-align: center;
+}
+
+.events h2 {
+    margin-bottom: 25px;
+    color: #25274d;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Event Cards */
+.event-card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+}
+
+.event-card h3 {
+    color: #aa4b6b;
+    margin-bottom: 15px;
+}
+
+.event-card p {
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    background-color: #25274d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #aa4b6b;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #25274d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #171832;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8
